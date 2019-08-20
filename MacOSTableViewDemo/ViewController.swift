@@ -24,6 +24,7 @@ class ViewController: NSViewController {
         self.tableView.dataSource = self
         self.originalColumns = tableView.tableColumns
         tableView.doubleAction  = #selector(handleDoubleClick)
+        //asdfashdfahfhsk
         setSortDescriptor()
     }
     
